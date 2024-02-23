@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: monospace;
+  display: grid;
+  height: 100vh;
+  place-content: center;
+  background-color: darkgreen;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  line-height: 1.6;
+}
+h1 {
+  color: goldenrod;
+}
+#message-el {
+  font-style: italic;
+}
+button {
+  color: #016f32;
+  background-color: goldenrod;
+  width: 150px;
+  cursor: pointer;
+  padding: 0.8em 1em;
+  border: none;
+  border-radius: 3px;
+  font-weight: 700;
+  justify-self: center;
+  margin-top: 0.6em;
+}

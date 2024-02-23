@@ -1,0 +1,29 @@
+body {
+  display: grid;
+  height: 100vh;
+  place-content: center;
+  font-family: monospace;
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: rgb(255, 218, 7);
+}
+
+#grid-container {
+  margin-top: 0.3em;
+  /* width: 400px; */
+  display: grid;
+  background-color: yellow;
+  margin-inline: auto;
+  gap: 0.8em;
+  padding: 0.8em;
+  grid-template-columns: repeat(4, 1fr);
+  border-radius: 5px;
+}
+
+#grid-container img {
+  width: 120px;
+  border-radius: 5px;
+  cursor: pointer;
+}

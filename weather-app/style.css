@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #22223e;
+  font-family: sans-serif;
+}
+
+.container {
+  background-color: #110;
+  margin: 15vh auto;
+  max-width: 360px;
+  padding: 1.5em 2em 3.5em 2em;
+  border-radius: 10px;
+}
+form {
+  width: 100%;
+  overflow: hidden;
+}
+
+form input {
+  width: 100%;
+  padding: 5px 0;
+  outline: none;
+  border: none;
+  font-weight: bold;
+  color: white;
+  font-size: 1rem;
+  background-color: transparent;
+  border-bottom: 3px solid white;
+}
+
+form input::placeholder {
+  color: white;
+}
+
+form input:focus {
+  border-bottom: 3px solid rgb(229, 86, 8);
+}
+
+ul li {
+  color: white;
+  background-color: #333;
+  margin-top: 0.2em;
+  font-size: 0.9rem;
+  font-weight: bold;
+  padding: 0.5em;
+  cursor: pointer;
+}
+
+ul li span {
+  color: #777;
+}
+
+#weather {
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+#degree {
+  font-size: 3.5rem;
+  margin-bottom: 0.3em;
+}
+#city {
+  color: orangered;
+  margin-bottom: 0.4em;
+}
+
+#change {
+  margin-block: 0.6em;
+  background-color: transparent;
+  color: white;
+  text-transform: uppercase;
+  border: 3px solid orange;
+  border-radius: 20px;
+  padding: 6px 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.info {
+  margin-top: 1em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.info h3 {
+  font-size: 0.9rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.info .value {
+  font-size: 1rem;
+  margin-top: 0.2em;
+}
+
+.info .value span {
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #777;
+}
